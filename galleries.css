@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+  }
+
+body{
+  background-color: #1e1e1e;
+  
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:#1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    }
+    .header h1{
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+    
+    .navbar a{
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 20px;
+    transition: .3s;
+    }
+    
+    .navbar a:hover,
+    .navbar a.active {
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+
+section{
+margin-top: 5%;
+height: 1000vh;
+
+}
+
+.picture{
+  width: 90%;
+  margin: 5%;
+  padding: 40px 0;
+}
+
+.title{
+  margin-bottom: 2rem;
+
+}
+
+.photoGallery{
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+   
+   .container .music-container{
+       display: flex;
+       align-items: center;
+       flex-flow: column ;
+   }
+   
+   .container .music-container .box 
+   {
+       height: 16rem;
+       width: 80%;
+       display: flex;
+       align-items: center;
+       background: #fff;
+       border-radius: 1rem;
+       box-shadow: 0  .5rem 1rem #000;
+       overflow: hidden;
+       margin: 1%;
+   
+   }
+   
+   .container .music-container .box .image
+   {
+       height: 100%;
+       width: 25%;
+   }
+   
+   .container .music-container .box .image img{
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+   }
+   
+   .container .music-container .box  .music
+   {
+       width: 100%;
+   }
+   
+   .container .music-container .box .music audio
+   {
+       width: 100%;
+       outline: none;
+   }
+   
+   .container .music-container .box .music audio::-webkit-media-controls-enclosure
+   {
+   background: none;
+   }
+
+  
+   .video{
+    margin: 2%;
+    display: flex;
+    margin: 0 auto;
+   }
+
+   .columnV{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+	  
+   }
+    
+   h2{
+    text-align: center;
+    color: white;
+    padding: 20px;
+   }
+  
+
+
+  footer {
+          margin-top: 5%;
+          width: 100%;
+          background-color: transparent#777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
